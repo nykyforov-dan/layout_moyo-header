@@ -2,7 +2,7 @@
 body {
   margin: 0;
 
-  --header-hight: 60px;
+  --header-height: 60px;
   --blue-text-color: #00acdc;
 }
 
@@ -17,7 +17,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
 }
 
 .logo-link {
@@ -49,7 +48,7 @@ body {
 
 .nav__link {
   display: block;
-  line-height: var(--header-hight);
+  line-height: var(--header-height);
   text-align: center;
 
   text-decoration: none;
